@@ -31,6 +31,21 @@ $(".time-block").each(function () {
     $(this).children(".description").val(savedInput);
   }
 
+  // Change the color of the time blocks based on the current time
+if (blockTime.isBefore(currentTime, 'hour')) {
+  // Past
+  console.log("Past");
+  $(this).removeClass("present future").addClass("past");
+} else if (blockTime.isSame(currentTime, 'hour')) {
+  // Present
+  console.log("Present");
+  $(this).removeClass("past future").addClass("present");
+} else {
+  // Future
+  console.log("Future");
+  $(this).removeClass("past present").addClass("future");
+}
+
   console.log(""); // Blank console log for clarity
 });
 
