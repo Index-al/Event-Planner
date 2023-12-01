@@ -4,7 +4,7 @@ Welcome to the Daily Planner App! Keep track of your daily schedule, set reminde
 
 ## 🚀 Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/daily-planner.git`
+1. Clone the repository: `git clone git@github.com:Index-al/Event-Planner.git`
 2. Open `index.html` in your web browser.
 
 ## 📝 Features
