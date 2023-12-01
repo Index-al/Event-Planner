@@ -12,6 +12,12 @@ textarea {
   padding: 10px;
 }
 
+#clearBtn {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
 .description {
   white-space: pre-wrap;
 }
